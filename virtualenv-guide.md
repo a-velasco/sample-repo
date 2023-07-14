@@ -23,15 +23,15 @@ This guide contains the steps to install, set up, and test our team's virtual en
     
     The default path is usually **`C:\%LocalAppData%\Programs\Python\Python39\python.exe`**
     
-	>⚠️ If you have trouble finding your distribution, check the [FAQ](#my-python-distribution-is-not-located-at-the-default-path).
+	>⚠️ If you have trouble finding your distribution, check the [FAQ](#my-python-distribution-is-not-located-at-the-default-path.-how-do-i-find-it).
 
 3.   **Navigate to your project directory with** `cd` **and create a new virtual environment with the path to your Python distribution**
     `virtualenv —python [path to python.exe] venv`
 4.  **Activate the newly created virtual environment**
-`.\venv\Scripts\activate`
-5.  **Download the latest `requirements.txt` from** github.com/a-velasco/sample-repo **to your project directory**. This file contains the python modules and versions that are used in this virtual environment. It should be regularly checked for updates.
-	>⚠️ If you cannot access this repository, check the [FAQ](#i-dont-have-access-to-the-repository).
-6.  **Install packages**
+    `.\venv\Scripts\activate`
+6.  **Download the latest `requirements.txt` from** github.com/a-velasco/sample-repo **to your project directory**. This file contains the python modules and versions that are used in this virtual environment. It should be regularly checked for updates.
+	>⚠️ If you cannot access this repository, check the [FAQ](#how-do-i-get-access-to-the-repository).
+7.  **Install packages**
 `pip install -r requirements.txt`
 
 The virtual environment is ready to use! **To exit, use the** `deactivate` **command on the same shell.** 
