@@ -1,4 +1,4 @@
-# Creating A Python Virtual Environment
+# How To Create A Python Virtual Environment
 
 `virtualenv` is a tool for creating isolated Python environments. ([Virtualenv documentation](https://virtualenv.pypa.io/en/stable/))
 
@@ -13,7 +13,7 @@ This guide contains the steps to install, set up, and test our team's virtual en
 - [ ] [**pip**](https://phoenixnap.com/kb/install-pip-windows#ftoc-heading-2) package manager
 
 
-## Installing `virtualenv`
+## How to install `virtualenv`
 
 1.  **On a *Windows command line*, install the** `virtualenv` **module**
 
